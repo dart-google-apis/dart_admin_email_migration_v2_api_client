@@ -97,7 +97,7 @@ class MailItem {
   }
 
   /** Return String representation of MailItem */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
