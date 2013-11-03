@@ -14,7 +14,7 @@ Adding dependency to pubspec.yaml
 
 ```
   dependencies:
-    google_admin_email_migration_v2_api: '>=0.4.1'
+    google_admin_email_migration_v2_api: '>=0.4.2'
 ```
 
 For web applications:
