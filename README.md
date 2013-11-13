@@ -14,7 +14,7 @@ Adding dependency to pubspec.yaml
 
 ```
   dependencies:
-    google_admin_email_migration_v2_api: '>=0.4.2'
+    google_admin_email_migration_v2_api: '>=0.4.3'
 ```
 
 For web applications:
@@ -29,13 +29,13 @@ For console application:
   import "package:google_admin_email_migration_v2_api/admin_email_migration_v2_api_console.dart" as adminclient;
 ```
 
-Working with out authentication the following constructor can be called:
+Working without authentication the following constructor can be called:
 
 ```
   var admin = new adminclient.Admin();
 ```
 
-Working with authentication then create a new `GoogleOAuth2` object and pass it to the constructor:
+To use authentication create a new `GoogleOAuth2` object and pass it to the constructor:
 
 
 ```
