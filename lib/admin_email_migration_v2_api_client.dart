@@ -11,3 +11,4 @@ export 'package:google_admin_email_migration_v2_api/src/client_base.dart' show A
 part 'src/client/client.dart';
 part 'src/client/schemas.dart';
 part 'src/client/resources.dart';
+part 'src/client/utils.dart';
