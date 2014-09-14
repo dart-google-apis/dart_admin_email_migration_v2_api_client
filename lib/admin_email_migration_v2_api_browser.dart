@@ -6,6 +6,7 @@ import 'package:google_admin_email_migration_v2_api/src/browser_client.dart';
 import "package:google_admin_email_migration_v2_api/admin_email_migration_v2_api_client.dart";
 
 /** Email Migration API lets you migrate emails of users to Google backends. */
+@deprecated
 class Admin extends Client with BrowserClient {
 
   /** OAuth Scope2: Manage email messages of users on your domain */
